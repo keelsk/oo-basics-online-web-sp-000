@@ -2,7 +2,7 @@
 class Shoe
   attr_reader :brand
 
-  intialize(brand)
+  def intialize(brand)
     @brand = brand
   end
 end
